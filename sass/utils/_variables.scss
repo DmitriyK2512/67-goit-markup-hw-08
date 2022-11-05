@@ -1,0 +1,36 @@
+:root {
+    /* палитра цветов */
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --secondary-color-w: #ffffff;
+    --logo-color: #000000;
+    --additional-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196f3;
+    --secondary-accent-color: #188ce8;
+    --modal-form-color: rgba(117, 117, 117, 0.5);
+    --text-field-color: #000000;
+
+    /*  рамка */
+    --primary-border-color: #eeeeee;
+    --secondary-border-color: #ececec;
+    --modal-btn-border-color: rgba(0, 0, 0, 0.1);
+    --modal-form-border-color: rgba(33, 33, 33, 0.2);
+
+    /* фон */
+    --primary-background-color: #ffffff;
+    --secondary-background-color-lige: rgba(47, 48, 58, 0.4);
+    --secondary-background-color-dark: #2f303a;
+    --accent-background-color: #afb1b8;
+    --hero-background-color: #C4C4C4;
+    --btn-background-color: #f5f4fa;
+    --work-wrapper-bg-color: rgba(47, 48, 58, 0.8);
+    --social-icon-background-color: rgba(255, 255, 255, 0.1);
+    --overlay-bg-color: rgba(33, 150, 243, 0.9);
+    --backdrop-bg-color: rgba(0, 0, 0, 0.2);
+    /* текст */
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    /* переходы */
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}

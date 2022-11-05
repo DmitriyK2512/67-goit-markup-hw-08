@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
+}
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    background-color: var(--primary-background-color);
+}

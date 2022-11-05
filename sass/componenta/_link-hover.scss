@@ -1,0 +1,9 @@
+.link-hover {
+    transition: color var(--transition-dur-and-func);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
