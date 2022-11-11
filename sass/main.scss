@@ -1,43 +1,27 @@
-@import'./utils/variables';
-@import'./utils/visually-hidden';
+@import'./_utils/variables';
+@import'./_utils/visually-hidden';
 
-@import'./base/common';
-@import'./base/section';
-@import'./base/container';
+@import'./_base/common';
+@import'./_base/container';
+@import'./_base/section';
 
-@import'./componenta/button';
-@import'./componenta/button-primary';
-@import'./componenta/portfolio-button';
-@import'./componenta/link-hover';
-@import'./componenta/title';
-@import'./componenta/text';
-@import'./componenta/social-list';
-@import'./componenta/logo';
-@import'./componenta/overlay';
-@import'./componenta/backdrop';
-@import'./componenta/modal-window';
-@import'./componenta/modal-window';
-@import'./componenta/modal-form';
+@import'./_componenta/logo';
+@import'./_componenta/link-hover';
+@import'./_componenta/mobile-menu';
+@import'./_componenta/button-primary';
+@import'./_componenta/button';
+@import'./_componenta/text';
+@import'./_componenta/title';
+@import'./_componenta/social-list';
 
 
 
 
-
-
-
-
-
-@import'./layout/header';
-@import'./layout/hero';
-@import'./layout/advantage';
-@import'./layout/work';
-@import'./layout/.team';
-@import'./layout/clients';
-@import'./layout/footer';
-@import'./layout/portfolio';
-
-
-
+@import'./_layout/header';
+@import'./_layout/hero';
+@import'./_layout/advantage';
+@import'./_layout/clients';
+@import'./_layout/footer';
 
 
 

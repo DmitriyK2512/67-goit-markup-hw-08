@@ -1,13 +1,19 @@
 .clients__list {
     display: flex;
-    column-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 30px;
+}
+
+.clients__item {
+    flex-basis: calc((100% - 30px) / 2);
 }
 
 .clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid var(--accent-background-color);
     border-radius: 4px;
@@ -24,5 +30,26 @@
 
 .clients__icon {
     fill: currentColor;
+}
+
+@media screen and (min-width: 768px) {
+    .clients__link{
+        width: 226px;       
+    }
+    .clients__item {
+        flex-basis: calc((100% - 60px) / 3);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .clients__link {
+            width: 170px;
+    }
+    .clients__item {
+        flex-basis: calc((100% - 90px) / 4);
+    }
+    .clients__list {        
+        flex-wrap: nowrap;        
+    }
 }
 
