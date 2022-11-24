@@ -7,7 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Студія</title>
+    <title>Портфоліо</title>
     <!--    ///   подключение шрифтов   ///    -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -141,7 +141,7 @@
 
               <li class="mobile-menu__menu-item">
                 <a
-                  class="mobile-menu__menu-link link-hover link"
+                  class="mobile-menu__menu-link link-hover link current"
                   href="./portfolio.html"
                   >Портфоліо</a
                 >
@@ -217,7 +217,533 @@
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <section class="portfolio section">
+        <div class="container">
+          <h1 class="visually-hidden">Портфоліо</h1>
+
+          <ul class="portfolio__list-btn list">
+            <li class="portfolio__item-btn">
+              <button
+                class="portfolio__button portfolio__button_activ button"
+                type="button"
+              >
+                Усі
+              </button>
+            </li>
+
+            <li class="portfolio__item-btn">
+              <button class="button portfolio__button" type="button">
+                Веб-сайти
+              </button>
+            </li>
+
+            <li class="portfolio__item-btn">
+              <button class="button portfolio__button" type="button">
+                Додатки
+              </button>
+            </li>
+
+            <li class="portfolio__item-btn">
+              <button class="button portfolio__button" type="button">
+                Дизайн
+              </button>
+            </li>
+
+            <li class="portfolio__item-btn">
+              <button class="button portfolio__button" type="button">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+
+          <ul class="portfolio__list-clients list">
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/1_1_tehnokriyk.jpg    1x,
+                        ./images/portfolio/desktop/1_1_tehnokriyk@2x.jpg 2x,
+                        ./images/portfolio/desktop/1_1_tehnokriyk@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/1_1_tehnokriyk_tablet.jpg    1x,
+                        ./images/portfolio/tablet/1_1_tehnokriyk_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/1_1_tehnokriyk_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/1_1_tehnokriyk_mobile.jpg    1x,
+                        ./images/portfolio/mobile/1_1_tehnokriyk_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/1_1_tehnokriyk_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/desktop/1_1_tehnokriyk.jpg"
+                      alt="Відкритий ноутбук з сайтом на екрані"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Технокряк
+                  </h2>
+                  <p class="portfolio__item-clients-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/1_2_poster.jpg    1x,
+                        ./images/portfolio/desktop/1_2_poster@2x.jpg 2x,
+                        ./images/portfolio/desktop/1_2_poster@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/1_2_poster_tablet.jpg    1x,
+                        ./images/portfolio/tablet/1_2_poster_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/1_2_poster_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/1_2_poster_mobile.jpg    1x,
+                        ./images/portfolio/mobile/1_2_poster_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/1_2_poster_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/1_2_poster_mobile.jpg"
+                      alt="Елемент дизайнерської роботи з баскетболістами"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio__item-clients-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/1_3_seafood.jpg    1x,
+                        ./images/portfolio/desktop/1_3_seafood@2x.jpg 2x,
+                        ./images/portfolio/desktop/1_3_seafood@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/1_3_seafood_tablet.jpg    1x,
+                        ./images/portfolio/tablet/1_3_seafood_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/1_3_seafood_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/1_3_seafood_mobile.jpg    1x,
+                        ./images/portfolio/mobile/1_3_seafood_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/1_3_seafood_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/tablet/1_3_seafood_tablet.jpg"
+                      alt="Логотип ресторану"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Ресторан Seafood
+                  </h2>
+                  <p class="portfolio__item-clients-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/2_1_prime.jpg    1x,
+                        ./images/portfolio/desktop/2_1_prime@2x.jpg 2x,
+                        ./images/portfolio/desktop/2_1_prime@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/2_1_prime_tablet.jpg    1x,
+                        ./images/portfolio/tablet/2_1_prime_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/2_1_prime_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/2_1_prime_mobile.jpg    1x,
+                        ./images/portfolio/mobile/2_1_prime_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/2_1_prime_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/2_1_prime_mobile.jpg"
+                      alt="Чорні навушники на білому фоні"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Проєкт Prime
+                  </h2>
+                  <p class="portfolio__item-clients-text">
+                    Маркетинг
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/2_2_boxes.jpg    1x,
+                        ./images/portfolio/desktop/2_2_boxes@2x.jpg 2x,
+                        ./images/portfolio/desktop/2_2_boxes@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/2_2_boxes_tablet.jpg    1x,
+                        ./images/portfolio/tablet/2_2_boxes_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/2_2_boxes_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/2_2_boxes_mobile.jpg    1x,
+                        ./images/portfolio/mobile/2_2_boxes_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/2_2_boxes_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/2_2_boxes_mobile.jpg"
+                      alt="Велика біла та маленька коробочка кирпичного кольору на білому фоні"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Проєкт Boxes
+                  </h2>
+                  <p class="portfolio__item-clients-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/2_3_borders.jpg    1x,
+                        ./images/portfolio/desktop/2_3_borders@2x.jpg 2x,
+                        ./images/portfolio/desktop/2_3_borders@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/2_3_borders_tablet.jpg    1x,
+                        ./images/portfolio/tablet/2_3_borders_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/2_3_borders_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/2_3_borders_mobile.jpg    1x,
+                        ./images/portfolio/mobile/2_3_borders_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/2_3_borders_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/2_3_borders_mobile.jpg"
+                      alt="Темний монітор на білому фоні"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="portfolio__item-clients-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/3_1_limited_edition.jpg    1x,
+                        ./images/portfolio/desktop/3_1_limited_edition@2x.jpg 2x,
+                        ./images/portfolio/desktop/3_1_limited_edition@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/3_1_limited_edition_tablet.jpg    1x,
+                        ./images/portfolio/tablet/3_1_limited_edition_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/3_1_limited_edition_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/3_1_limited_edition_mobile.jpg    1x,
+                        ./images/portfolio/mobile/3_1_limited_edition_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/3_1_limited_edition_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/3_1_limited_edition_mobile.jpg"
+                      alt="Відкрита книга"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Видання Limited Edition
+                  </h2>
+                  <p class="portfolio__item-clients-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/3_2_lab.jpg    1x,
+                        ./images/portfolio/desktop/3_2_lab@2x.jpg 2x,
+                        ./images/portfolio/desktop/3_2_lab@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/3_2_lab_tablet.jpg    1x,
+                        ./images/portfolio/tablet/3_2_lab_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/3_2_lab_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/3_2_lab_mobile.jpg    1x,
+                        ./images/portfolio/mobile/3_2_lab_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/3_2_lab_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/3_2_lab_mobile.jpg"
+                      alt="Фірмовий знак проекту"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Проєкт LAB
+                  </h2>
+                  <p class="portfolio__item-clients-text">
+                    Маркетинг
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="portfolio__item-clients">
+              <a class="portfolio__item-clients-link link" href="">
+                <div class="overlay-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/desktop/3_3_growing_business.jpg    1x,
+                        ./images/portfolio/desktop/3_3_growing_business@2x.jpg 2x,
+                        ./images/portfolio/desktop/3_3_growing_business@3x.jpg 3x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/tablet/3_3_growing_business_tablet.jpg    1x,
+                        ./images/portfolio/tablet/3_3_growing_business_tablet@2x.jpg 2x,
+                        ./images/portfolio/tablet/3_3_growing_business_tablet@3x.jpg 3x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/mobile/3_3_growing_business_mobile.jpg    1x,
+                        ./images/portfolio/mobile/3_3_growing_business_mobile@2x.jpg 2x,
+                        ./images/portfolio/mobile/3_3_growing_business_mobile@3x.jpg 3x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="portfolio__item-clients-img"
+                      src="./images/portfolio/mobile/3_3_growing_business_mobile.jpg"
+                      alt="Ноутбук на столі"
+                      width="370"
+                    />
+                  </picture>
+
+                  <p class="overlay">
+                    Ресурс пропонує комплексні пропозиції з різним
+                    рівнем функціоналу та сервісів. Все це дозволить
+                    відвідувачу отримати вичерпні відомості про
+                    компанію чи приватну особу.
+                  </p>
+                </div>
+
+                <div class="portfolio__item-clients-wrapper">
+                  <h2 class="portfolio__item-clients-title">
+                    Growing Business
+                  </h2>
+                  <p class="portfolio__item-clients-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer section">
       <div class="footer__container container">

@@ -6,13 +6,19 @@
         justify-content: space-between;
 
     }
+    .top-part-wrapper{
+        padding-bottom: 32px;
+    }
     .mobile-menu__social-list {
             justify-content: space-between;            
             flex-wrap: wrap;
             border: none;
             row-gap: 10px;
-        }
+    }
 }
+
+// /////////////////////////////////////
+
 .mobile-menu{
     position: fixed;
     top: 0;
@@ -104,6 +110,9 @@
     letter-spacing: 0.02em;    
     color: var(--accent-color);
             
+}
+.current {
+    color: var(--accent-color);
 }
 
 
