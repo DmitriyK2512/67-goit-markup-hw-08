@@ -31,7 +31,9 @@
 }
 
 .portfolio__item-clients-link {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     transition: box-shadow var(--transition-dur-and-func);
 
     &:hover,
@@ -43,6 +45,11 @@
 
 }
 
+.portfolio__item-clients-wrapper {
+   
+    flex-grow: 1;
+}
+
 .portfolio__item-clients-title {
     font-size: 18px;
     line-height: 2;
@@ -50,6 +57,8 @@
     color: var(--primary-color);
     margin-bottom: 4px;
 }
+
+
 
 .portfolio__item-clients-text {
     line-height: 1.88;
