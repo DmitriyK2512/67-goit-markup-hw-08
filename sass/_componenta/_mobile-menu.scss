@@ -4,15 +4,11 @@
 
     .mobile-menu__social-list {
         justify-content: space-between;
-        flex-wrap: wrap;
-        border: none;
+        flex-wrap: wrap;        
         row-gap: 10px;
     }
 
-}
-// ////////////////
-@media screen and (max-width: 479px) {   
-    
+        
 }
 // /////////////////////////////////////
 
@@ -46,6 +42,7 @@
     visibility: visible;
     pointer-events: auto;
 }
+// ........... обертка меню   .......
 
 .top-part-wrapper {
     padding-bottom: 32px;
@@ -62,6 +59,9 @@
         letter-spacing: 0.02em;    
         color: #212121;
 }
+
+// .........   обертка контактов   .................
+
 .mobile-menu__contact-list{
     margin-bottom: 64px;
 }
@@ -85,6 +85,8 @@
         color: var(--secondary-color);
 }
 
+// ...........   закрывающая кнопка   .............
+
 .mobile-menu__close-btn{
     position: absolute;
     top: 10px;
@@ -103,35 +105,47 @@
     fill: var(--accent-color);
 }
 
+// ..................   список соцсетей   ...............
+
 .mobile-menu__social-list{
     display: flex;
     align-items: center;
     column-gap: 20px;    
 }
-
    
 .mobile-menu__social-link{
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;        
     letter-spacing: 0.02em;    
-    color: var(--accent-color);
-            
+    color: var(--accent-color);            
 }
+
+       
+// .....................
+
 .current {
     color: var(--accent-color);
 }
 
+// ////////////////////////////////// 
+
+@media screen and (min-width: 437px){
+    .mobile-menu__social-item:not(:last-child) {
+            padding-right: 10px;
+            border-right: 1px solid rgba(33, 33, 33, 0.2);
+        }
+}
 
 @media screen and (min-width: 480px) { 
    
     .mobile-menu__contact-tel-link {        
         font-size: 34px;       
     }
-    .mobile-menu__social-item:not(:last-child) {
-        padding-right: 10px;
-        border-right: 1px solid rgba(33, 33, 33, 0.2);    
-    }
+    // .mobile-menu__social-item:not(:last-child) {
+    //     padding-right: 10px;
+    //     border-right: 1px solid rgba(33, 33, 33, 0.2);    
+    // }
 
 
 }
