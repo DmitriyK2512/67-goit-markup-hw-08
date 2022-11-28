@@ -148,6 +148,11 @@ body {
   .top-part-wrapper {
     padding-bottom: 32px;
   }
+  .bottom-part-wrapper {
+    padding-bottom: 48px;
+  }
+}
+@media screen and (max-width: 437px) {
   .mobile-menu__social-list {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -256,7 +261,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .mobile-menu__menu-list {
-    margin-bottom: 306px;
+    margin-bottom: 302px;
   }
   .mobile-menu__contact-tel-link {
     font-size: 34px;
@@ -470,6 +475,14 @@ body {
   border: none;
 }
 
+@media screen and (max-width: 479px) {
+  .mobile-menu {
+    width: 100%;
+  }
+  .body {
+    padding: 15px 0;
+  }
+}
 /* модальное окно */
 .modal {
   position: absolute;
